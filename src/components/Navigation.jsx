@@ -7,8 +7,11 @@ function Navigation() {
       <Link as={RouterLink} to="/" mr="4">
         Home
       </Link>
-      <Link as={RouterLink} to="/odoo-automation">
+      <Link as={RouterLink} to="/odoo-automation" mr="4">
         Odoo Automation
+      </Link>
+      <Link as={RouterLink} to="/automation-plan">
+        Automation Plan
       </Link>
     </Box>
   );
